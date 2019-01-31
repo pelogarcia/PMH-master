@@ -1,0 +1,25 @@
+agm-map {
+  height: 300px;
+}
+
+
+* {
+  font-family: Lato;
+}
+
+a {
+  color: darkblue;
+}
+
+.body2 {
+
+    background: rgb(243, 243, 243); /* cambia el color del body solo en esta seccion*/
+  }
+  .b3 {
+
+    background: rgb(0, 0, 0); /*cambia el color del contenedor principal solo en esta seccion*/
+  }
+
+  .mw2{
+    max-width: 20% !important;
+  }

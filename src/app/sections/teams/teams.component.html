@@ -1,0 +1,231 @@
+
+ <div class="pricing-5 section-gray"  style="background-image: url('./assets/img/bg6.jpg') ; background-size:105%">
+  <div class="filter"></div>
+  <div class="filter"></div>
+  <div class="container">
+      <div class="row">
+
+            </div>
+            <div class="col-md-8 ml-auto mr-auto text-center">
+
+                <h4 class="presentation-title" style="font-weight:bold ; color:white">Elija la cantidad de pasaejeros</h4>
+                <h2 class="title" style="font-weight:bold ; color:white" >Your dream is now a plan.</h2>
+             </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-8 ml-auto mr-auto text-center">
+
+            <div class="title">
+                <h4 style="font-weight:bold ; color:white" >Adultos</h4>
+              </div>
+                <div class="form-group">
+                    <angular2-multiselect [data]="dropdownList" [(ngModel)]="selectedItems"
+                        [settings]="dropdownSettings"
+                        (onSelect)="onItemSelect($event)"
+                        (onDeSelect)="OnItemDeSelect($event)"
+                        (onSelectAll)="onSelectAll($event)"
+                        (onDeSelectAll)="onDeSelectAll($event)">
+                    </angular2-multiselect>
+                </div>
+
+                <div class="title">
+                    <h4 style="font-weight:bold ; color:white" >Niños</h4>
+                  </div>
+                  <div class="form-group">
+                      <angular2-multiselect [data]="dropdownList1" [(ngModel)]="selectedItems1"
+                          [settings]="dropdownSettings"
+                          (onSelect)="onItemSelect($event)"
+                          (onDeSelect)="OnItemDeSelect($event)"
+                          (onSelectAll)="onSelectAll($event)"
+                          (onDeSelectAll)="onDeSelectAll($event)">
+                      </angular2-multiselect>
+                                </div>
+
+                              </div>
+
+
+
+    </div>
+              </div>
+
+<div class="testimonials-3">
+
+  <div class="container">
+      <div class="row">
+               <div class="col-md-8 ml-auto mr-auto text-center">
+
+                <h4 class="presentation-title" style="font-weight:bold ; color:white">Planmotorhome.com</h4>
+                <h2 class="title" style="font-weight: bold"> INTERESES</h2>
+                <h5 class="description">Esto nos ayudará a darte una experiencia única y personalizada, por favor
+                  selecciona mínimo 3 intereses..</h5>
+            </div>
+          </div>
+
+      <div class="row">
+          <div class="col-md-3 ml-auto">
+            <div class="card"  style="background-image: url('assets/img/ai2.jpg') !important ; background-size:100%">
+                   <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary5"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white">Futbol </h4>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+              <div class="card" style="background-image: url('assets/img/bgee.jpg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary4"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white"> Arte </h4>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3 mr-auto">
+              <div class="card" style="background-image: url('assets/img/ai3.jpg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary3"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+
+
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white">Naturaleza </h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-4 ml-auto">
+              <div class="card"  style="background-image: url('assets/img/bg3.jpeg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary2"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white">Aire libre
+                      </h4>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 mr-auto">
+              <div class="card"  style="background-image: url('assets/img/ai7.jpg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary1"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white" style="font-weight:bold ; color:white">Vida Nocturna </h4>
+
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 ml-auto">
+              <div class="card" style="background-image: url('assets/img/ai6.jpg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary6"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white" style="font-weight:bold ; color:white"> Historia </h4>
+
+
+
+
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+              <div class="card" style="background-image: url('assets/img/ai4.jpg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary7"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white" >Compras  </h4>
+
+
+
+
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 mr-auto">
+              <div class="card" style="background-image: url('assets/img/ai5.jpg') !important ; background-size:100%">
+                  <div class="card-body">
+                    <label>
+                      <bSwitch
+                          [switch-on-color]="'success'"
+                          [switch-off-color]="'orange'"
+                          [(ngModel)]="state_icon_primary8"
+                          switch-on-text="<i class='nc-icon nc-check-2'></i>"
+                          switch-off-text="<i class='nc-icon nc-simple-remove'></i>">
+                      </bSwitch>
+                      </label>
+
+                      <h4 class="presentation-title" style="font-weight:bold ; color:white">Música</h4>
+
+
+
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
