@@ -14,6 +14,10 @@ a {
 .body2 {
 
     background: rgb(243, 243, 243); /* cambia el color del body solo en esta seccion*/
+
+    /*background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 35%,#4e6773 100%);*/
+    background: linear-gradient(to bottom, #FFFFFF 35%,#335977 100%);
   }
   .b3 {
 
