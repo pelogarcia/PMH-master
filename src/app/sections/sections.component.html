@@ -3,40 +3,42 @@
 <app-contacts></app-contacts>
 <app-teams></app-teams>
 <app-blogs></app-blogs>
+
 <nav id="cd-vertical-nav">
     <ul>
         <li>
-            <a data-number="1" (click)="smoothScroll('headers')">
+            <a data-number="1" (click)="smoothScroll('header')">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Inicio</span>
             </a>
         </li>
      <li>
-            <a data-number="2" (click)="smoothScroll('contacts')">
+            <a data-number="2" (click)="smoothScroll('circle')">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Equipo</span>
+            </a>
+        </li>
+        <li>
+            <a data-number="3" (click)="smoothScroll('contact-us')">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Plan</span>
             </a>
         </li>
-        <li>
-            <a data-number="3" (click)="smoothScroll('teams')">
-                <span class="cd-dot"></span>
-                <span class="cd-label">Intereses y gustos</span>
-            </a>
-        </li>
       <li>
-            <a data-number="4" (click)="smoothScroll('blogs')">
+            <a data-number="4" (click)="smoothScroll('intereses')">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Contácto</span>
+                <span class="cd-label">Intereses</span>
             </a>
         </li>
         
         
-      <!--    <li>
-            <a data-number="5" (click)="smoothScroll('projects')">
+        <li>
+            <a data-number="5" (click)="smoothScroll('contacto')">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Projects</span>
+                <span class="cd-label">Contacto</span>
             </a>
         </li>
+         <!-- 
         <li>
             <a data-number="6" (click)="smoothScroll('pricing')">
                 <span class="cd-dot"></span>
