@@ -1,5 +1,5 @@
 .card{
-    border-radius: $border-radius-extreme;
+    border-radius: 35px;
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
     background-color: #FFFFFF;
     color: $card-black-color;
@@ -32,7 +32,9 @@
         -ms-transform: none;
         -moz-transform: none;
     }
-
+    .card-centro {
+        margin-left: 500px;
+    }
     a:not(.btn){
         color: $black-hr;
 
